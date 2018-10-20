@@ -54,6 +54,8 @@
     <Compile Include="Are_Cuadrado.cs" />
     <Compile Include="Peri_Rectangulo.cs" />
     <Compile Include="Are_Rectangulo.cs" />
+    <Compile Include="Peri_Rombo.cs" />
+    <Compile Include="Are_Rombo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -61,11 +61,43 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             return elResultado;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ancho">valor del ancho del rectángulo</param>
+        /// <param name="largo">valor del largo del rectángulo</param>
+        /// <returns>valor del área del rectángulo</returns>
         public double Area_Rectangulo(double ancho, double largo)
         {
             Logica.Especificacion.Area_Rectangulo laEspecificacion;
             laEspecificacion = new Logica.Especificacion.Area_Rectangulo();
             var elResultado = laEspecificacion.Area_Rectangu(ancho, largo);
+            return elResultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lado">valor del lado del rombo</param>
+        /// <returns>valor del perímetro del rombo</returns>
+        public double Peri_Rombo(double lado)
+        {
+            Logica.Especificacion.Peri_Rombo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_Rombo();
+            var elResultado = laEspecificacion.Perim_Rombo(lado);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Diag_mayor">valor de la diagonal mayor</param>
+        /// <param name="Diag_menor">valor de la diagonal menor</param>
+        /// <returns>valor del área del rombo</returns>
+        public double Area_Rombo(double Diag_mayor, double Diag_menor)
+        {
+            Logica.Especificacion.Area_Rombo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Rombo();
+            var elResultado = laEspecificacion.Area_Romb(Diag_mayor, Diag_menor);
             return elResultado;
         }
     }

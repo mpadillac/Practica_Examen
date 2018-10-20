@@ -24,6 +24,12 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Area_Rectangulo(double ancho, double largo);
 
         [OperationContract]
+        double Peri_Rombo(double lado);
+
+        [OperationContract]
+        double Area_Rombo(double Diag_mayor, double Diag_menor);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
