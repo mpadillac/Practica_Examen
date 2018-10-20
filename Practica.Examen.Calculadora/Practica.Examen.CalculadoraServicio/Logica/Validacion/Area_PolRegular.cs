@@ -5,14 +5,14 @@ using System.Web;
 
 namespace Practica.Examen.CalculadoraServicio.Logica.Validacion
 {
-    public class Peri_Rectangulo
+    public class Area_PolRegular
     {
-        public bool LosOperadoresSonCorrectos(double ancho, double largo)
+        public bool LosOperadoresSonCorrectos(double lado, double apotema, int cant_lados)
         {
             bool elResultado = true;
             // valido que el ancho y largo sean positivos
 
-            elResultado = !(ancho <= 0 || largo <= 0);
+            elResultado = !(lado <= 0 || apotema <= 0 || cant_lados <= 4);
             return elResultado;
         }
     }

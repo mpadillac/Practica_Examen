@@ -12,7 +12,7 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Validacion
             bool elResultado = true;
             // valido que el ancho y largo sean positivos
 
-            elResultado = !(Diag_mayor <= 0 && Diag_menor <= 0);
+            elResultado = !(Diag_mayor <= 0 || Diag_menor <= 0);
             return elResultado;
         }
     }

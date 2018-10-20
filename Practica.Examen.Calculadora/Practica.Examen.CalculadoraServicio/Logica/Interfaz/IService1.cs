@@ -30,6 +30,18 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Area_Rombo(double Diag_mayor, double Diag_menor);
 
         [OperationContract]
+        double Peri_PoligRegular(double lado, int cant_lados);
+
+        [OperationContract]
+        double Area_PoligRegular(double lado, double apotema, int cant_lados);
+
+        [OperationContract]
+        double Peri_Trapecio(double ladoa, double ladob, double ladoc, double ladod);
+
+        [OperationContract]
+        double Area_Trapecio(double base_mayor, double base_menor, double altura);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]

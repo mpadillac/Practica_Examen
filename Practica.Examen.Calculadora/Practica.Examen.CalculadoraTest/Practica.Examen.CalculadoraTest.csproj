@@ -56,6 +56,10 @@
     <Compile Include="Are_Rectangulo.cs" />
     <Compile Include="Peri_Rombo.cs" />
     <Compile Include="Are_Rombo.cs" />
+    <Compile Include="Peri_PoligRegular.cs" />
+    <Compile Include="Are_PolRegular.cs" />
+    <Compile Include="Peri_Trapecio.cs" />
+    <Compile Include="Are_Trapecio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

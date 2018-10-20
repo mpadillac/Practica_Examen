@@ -100,5 +100,61 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Area_Romb(Diag_mayor, Diag_menor);
             return elResultado;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lado">valor del lado del polígono regular</param>
+        /// <param name="cant_lados">valor de lacantidad de lados del polígono regular</param>
+        /// <returns></returns>
+        public double Peri_PoligRegular(double lado, int cant_lados)
+        {
+            Logica.Especificacion.Peri_PoligRegular laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_PoligRegular();
+            var elResultado = laEspecificacion.Peri_PolRegular(lado, cant_lados);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lado">valor del lado del polígono regular</param>
+        /// <param name="apotema">valor de la apotema</param>
+        /// <param name="cant_lados">cantidad de lados del polígono regular</param>
+        /// <returns>el valor del área del polígono regular</returns>
+        public double Area_PoligRegular(double lado, double apotema, int cant_lados)
+        {
+            Logica.Especificacion.Area_PolRegular laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_PolRegular();
+            var elResultado = laEspecificacion.Area_PolRegula(lado, apotema, cant_lados);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ladoa">valor del lado a</param>
+        /// <param name="ladob">valor del lado b</param>
+        /// <param name="ladoc">valor del lado c</param>
+        /// <param name="ladod">valor del lado d</param>
+        /// <returns>valor del perímetro del trapecio</returns>
+        public double Peri_Trapecio(double ladoa, double ladob, double ladoc, double ladod)
+        {
+            Logica.Especificacion.Peri_Trapecio laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_Trapecio();
+            var elResultado = laEspecificacion.Perim_Trapecio(ladoa, ladob, ladoc, ladod);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="base_mayor">valor de la base mayor</param>
+        /// <param name="base_menor">valor de la base menor</param>
+        /// <param name="altura">valor de la altura</param>
+        /// <returns>valor del área del trapecio</returns>
+        public double Area_Trapecio(double base_mayor, double base_menor, double altura)
+        {
+            Logica.Especificacion.Area_Trapecio laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Trapecio();
+            var elResultado = laEspecificacion.Are_Trapecio(base_mayor, base_menor, altura);
+            return elResultado;
+        }
     }
 }
