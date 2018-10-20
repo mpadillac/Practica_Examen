@@ -11,7 +11,7 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Especificacion
         /// 
         /// </summary>
         /// <param name="valor del lado del cuadrado"></param>
-        /// <returns></returns>
+        /// <returns>el perímetro del cuadrado</returns>
 
         public double Peri_Cuadrado(double lado)
         {

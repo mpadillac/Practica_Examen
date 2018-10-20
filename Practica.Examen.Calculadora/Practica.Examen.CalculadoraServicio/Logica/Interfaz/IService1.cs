@@ -12,8 +12,16 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
     public interface IService1
     {
         [OperationContract]
-
         double Peri_Cuadrado(double lado);
+
+        [OperationContract]
+        double Are_Cuadrado(double lado);
+
+        [OperationContract]
+        double Peri_Rectangulo(double ancho, double largo);
+
+        [OperationContract]
+        double Area_Rectangulo(double ancho, double largo);
 
         [OperationContract]
         string GetData(int value);

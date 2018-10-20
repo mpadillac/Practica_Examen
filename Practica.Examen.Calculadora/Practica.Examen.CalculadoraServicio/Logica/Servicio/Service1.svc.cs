@@ -22,11 +22,50 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lado">valor del lado del cuadrado</param>
+        /// <returns>el valor del perímetro delcuadrado</returns>
         public double Peri_Cuadrado(double lado)
         {
             Logica.Especificacion.Perime_Cuadrado laEspecificacion;
             laEspecificacion = new Logica.Especificacion.Perime_Cuadrado();
             var elResultado = laEspecificacion.Peri_Cuadrado(lado);
+            return elResultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lado">valor del lado del cuadrado</param>
+        /// <returns>el valor del Área del cuadrado</returns>
+        public double Are_Cuadrado(double lado)
+        {
+            Logica.Especificacion.Area_Cuadrado laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Cuadrado();
+            var elResultado = laEspecificacion.Are_Cuadrado(lado);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ancho">valor del ancho del rectángulo</param>
+        /// <param name="largo">varlo del largo del rectángulo</param>
+        /// <returns>el valor del perímetro del rectángulo</returns>
+        public double Peri_Rectangulo(double ancho, double largo)
+        {
+            Logica.Especificacion.Peri_Rectangulo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_Rectangulo();
+            var elResultado = laEspecificacion.Peri_Rectangu(ancho,largo);
+            return elResultado;
+        }
+
+        public double Area_Rectangulo(double ancho, double largo)
+        {
+            Logica.Especificacion.Area_Rectangulo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Rectangulo();
+            var elResultado = laEspecificacion.Area_Rectangu(ancho, largo);
             return elResultado;
         }
     }

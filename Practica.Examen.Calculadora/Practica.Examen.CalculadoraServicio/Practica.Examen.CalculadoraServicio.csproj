@@ -74,13 +74,22 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logica\Accion\Area_Cuadrado.cs" />
+    <Compile Include="Logica\Accion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Accion\Perime_Cuadrado.cs" />
+    <Compile Include="Logica\Accion\Peri_Rectangulo.cs" />
+    <Compile Include="Logica\Especificacion\Area_Cuadrado.cs" />
+    <Compile Include="Logica\Especificacion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Especificacion\Perime_Cuadrado.cs" />
+    <Compile Include="Logica\Especificacion\Peri_Rectangulo.cs" />
     <Compile Include="Logica\Interfaz\IService1.cs" />
     <Compile Include="Logica\Servicio\Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
+    <Compile Include="Logica\Validacion\Area_Cuadrado.cs" />
+    <Compile Include="Logica\Validacion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Validacion\Perime_Cuadrado.cs" />
+    <Compile Include="Logica\Validacion\Peri_Rectangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
