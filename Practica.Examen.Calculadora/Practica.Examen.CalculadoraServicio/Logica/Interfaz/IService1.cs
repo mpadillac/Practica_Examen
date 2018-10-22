@@ -42,6 +42,9 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Area_Trapecio(double base_mayor, double base_menor, double altura);
 
         [OperationContract]
+        double Peri_Triangulo(double ladoa, double ladob, double ladoc);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]

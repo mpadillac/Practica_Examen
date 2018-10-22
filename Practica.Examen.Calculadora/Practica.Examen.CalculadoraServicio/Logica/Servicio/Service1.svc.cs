@@ -156,5 +156,19 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Are_Trapecio(base_mayor, base_menor, altura);
             return elResultado;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ladoa">valor del lado a deltriángulo</param>
+        /// <param name="ladob">valor del lado b deltriángulo</param>
+        /// <param name="ladoc">valor del lado c deltriángulo</param>
+        /// <returns>el valor del perímetro del triángulo</returns>
+        public double Peri_Triangulo(double ladoa, double ladob, double ladoc)
+        {
+            Logica.Especificacion.Peri_Triangulo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_Triangulo();
+            var elResultado = laEspecificacion.Perim_Triangulo(ladoa, ladob, ladoc);
+            return elResultado;
+        }
     }
 }

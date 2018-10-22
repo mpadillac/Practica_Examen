@@ -84,6 +84,7 @@
     <Compile Include="Logica\Accion\Peri_Rectangulo.cs" />
     <Compile Include="Logica\Accion\Peri_Rombo.cs" />
     <Compile Include="Logica\Accion\Peri_Trapecio.cs" />
+    <Compile Include="Logica\Accion\Peri_Triangulo.cs" />
     <Compile Include="Logica\Especificacion\Area_Cuadrado.cs" />
     <Compile Include="Logica\Especificacion\Area_PolRegular.cs" />
     <Compile Include="Logica\Especificacion\Area_Rectangulo.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Logica\Especificacion\Peri_Rectangulo.cs" />
     <Compile Include="Logica\Especificacion\Peri_Rombo.cs" />
     <Compile Include="Logica\Especificacion\Peri_Trapecio.cs" />
+    <Compile Include="Logica\Especificacion\Peri_Triangulo.cs" />
     <Compile Include="Logica\Interfaz\IService1.cs" />
     <Compile Include="Logica\Servicio\Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
@@ -108,6 +110,7 @@
     <Compile Include="Logica\Validacion\Peri_Rectangulo.cs" />
     <Compile Include="Logica\Validacion\Peri_Rombo.cs" />
     <Compile Include="Logica\Validacion\Peri_Trapecio.cs" />
+    <Compile Include="Logica\Validacion\Peri_Triangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
