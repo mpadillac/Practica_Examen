@@ -79,6 +79,7 @@
     <Compile Include="Logica\Accion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Accion\Area_Rombo.cs" />
     <Compile Include="Logica\Accion\Area_Trapecio.cs" />
+    <Compile Include="Logica\Accion\Area_Triangulo.cs" />
     <Compile Include="Logica\Accion\Perime_Cuadrado.cs" />
     <Compile Include="Logica\Accion\Peri_PoligRegular.cs" />
     <Compile Include="Logica\Accion\Peri_Rectangulo.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Logica\Especificacion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Especificacion\Area_Rombo.cs" />
     <Compile Include="Logica\Especificacion\Area_Trapecio.cs" />
+    <Compile Include="Logica\Especificacion\Area_Triangulo.cs" />
     <Compile Include="Logica\Especificacion\Perime_Cuadrado.cs" />
     <Compile Include="Logica\Especificacion\Peri_PoligRegular.cs" />
     <Compile Include="Logica\Especificacion\Peri_Rectangulo.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Logica\Validacion\Area_Rectangulo.cs" />
     <Compile Include="Logica\Validacion\Area_Rombo.cs" />
     <Compile Include="Logica\Validacion\Area_Trapecio.cs" />
+    <Compile Include="Logica\Validacion\Area_Triangulo.cs" />
     <Compile Include="Logica\Validacion\Perime_Cuadrado.cs" />
     <Compile Include="Logica\Validacion\Peri_PoligRegular.cs" />
     <Compile Include="Logica\Validacion\Peri_Rectangulo.cs" />

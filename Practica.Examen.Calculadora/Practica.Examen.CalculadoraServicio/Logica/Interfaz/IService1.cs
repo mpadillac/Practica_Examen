@@ -45,6 +45,9 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Peri_Triangulo(double ladoa, double ladob, double ladoc);
 
         [OperationContract]
+        double Area_Triangulo(double ladoa, double ladob, double ladoc);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]

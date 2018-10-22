@@ -170,5 +170,20 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Perim_Triangulo(ladoa, ladob, ladoc);
             return elResultado;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ladoa">valor del lado a del triángulo</param>
+        /// <param name="ladob">valor del lado b del triángulo</param>
+        /// <param name="ladoc">valor del lado c del triángulo</param>
+        /// <returns>valor del área del triángulo</returns>
+        /// 
+        public double Area_Triangulo(double ladoa, double ladob, double ladoc)
+        {
+            Logica.Especificacion.Area_Triangulo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Triangulo();
+            var elResultado = laEspecificacion.Are_Triangulo(ladoa, ladob, ladoc);
+            return elResultado;
+        }
     }
 }

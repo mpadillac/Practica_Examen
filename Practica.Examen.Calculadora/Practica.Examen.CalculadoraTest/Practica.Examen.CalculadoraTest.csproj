@@ -61,6 +61,7 @@
     <Compile Include="Peri_Trapecio.cs" />
     <Compile Include="Are_Trapecio.cs" />
     <Compile Include="Peri_Triangulo.cs" />
+    <Compile Include="Are_Triangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
