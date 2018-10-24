@@ -185,5 +185,46 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Are_Triangulo(ladoa, ladob, ladoc);
             return elResultado;
         }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="largo">valor del largo del romboide</param>
+    /// <param name="ancho">valor del ancho del romboide</param>
+    /// <returns>valor del perímetro del romboide</returns>
+        public double Peri_Romboide(double largo, double ancho)
+        {
+            Logica.Especificacion.Peri_Romboide laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Peri_Romboide();
+            var elResultado = laEspecificacion.Perim_Romboide(largo, ancho);
+            return elResultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="bbase">valor de la base del Romboide</param>
+        /// <param name="altura">valor de la altura del Romboide</param>
+        /// <returns>valor del área del Romboide</returns>
+        public double Area_Romboide(double bbase, double altura)
+        {
+            Logica.Especificacion.Area_Romboide laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Area_Romboide();
+            var elResultado = laEspecificacion.Are_Romboide(bbase, altura);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="radio">valor del radio del cilindro</param>
+        /// <param name="altura">valor de la altura del cilindro</param>
+        /// <returns>valor del volumen del cilindro</returns>
+        public double Volu_Cilindro(double radio, double altura)
+        {
+            Logica.Especificacion.Vol_Cilindro laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Cilindro();
+            var elResultado = laEspecificacion.Volu_Cilindro(radio, altura);
+            return elResultado;
+        }
     }
 }

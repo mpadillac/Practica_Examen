@@ -48,6 +48,15 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Area_Triangulo(double ladoa, double ladob, double ladoc);
 
         [OperationContract]
+        double Peri_Romboide(double largo, double ancho);
+
+        [OperationContract]
+        double Area_Romboide(double bbase, double altura);
+
+        [OperationContract]
+        double Volu_Cilindro(double radio, double altura);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
