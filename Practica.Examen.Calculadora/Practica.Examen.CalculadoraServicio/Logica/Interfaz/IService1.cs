@@ -57,6 +57,12 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Volu_Cilindro(double radio, double altura);
 
         [OperationContract]
+        double Volu_Esfera( double radio);
+
+        [OperationContract]
+        double Volu_Cono(double radio, double altura);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]

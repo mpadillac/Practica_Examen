@@ -226,5 +226,25 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Volu_Cilindro(radio, altura);
             return elResultado;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="radio">valor del radio de la esfera</param>
+        /// <returns>el valor del volumen de la esfera</returns>
+        public double Volu_Esfera(double radio)
+        {
+            Logica.Especificacion.Vol_Esfera laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Esfera();
+            var elResultado = laEspecificacion.Volu_Esfera(radio);
+            return elResultado;
+        }
+
+        public double Volu_Cono(double radio, double altura)
+        {
+            Logica.Especificacion.Vol_Cono laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Cono();
+            var elResultado = laEspecificacion.Volu_Cono(radio, altura);
+            return elResultado;
+        }
     }
 }

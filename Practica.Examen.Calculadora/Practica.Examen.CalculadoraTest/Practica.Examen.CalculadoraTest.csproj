@@ -64,6 +64,8 @@
     <Compile Include="Are_Triangulo.cs" />
     <Compile Include="Peri_Romboide.cs" />
     <Compile Include="Are_Romboide.cs" />
+    <Compile Include="Vol_Cono.cs" />
+    <Compile Include="Vol_Esfera.cs" />
     <Compile Include="Vol_Cilindro.cs" />
   </ItemGroup>
   <ItemGroup>
