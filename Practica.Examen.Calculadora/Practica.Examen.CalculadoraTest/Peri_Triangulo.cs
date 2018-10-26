@@ -11,10 +11,10 @@ namespace Practica.Examen.CalculadoraTest
         public void Perim_Triangulo()
         {
             // preparación del escenario
-            var miladoa = 5.0;
+            var miladoa = 7.0;
             var miladob = 10.0;
             var miladoc = 16.0;
-            var miValorEsperado = 31.0;
+            var miValorEsperado = 33.0;
             var miValorReal = 0.0;
 
             // invocamos el método

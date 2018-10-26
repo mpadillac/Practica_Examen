@@ -28,7 +28,7 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Accion
                 
                 elResultado = Math.Truncate(Math.Sqrt(s * (s-ladoa) * (s-ladob) * (s-ladoc)));
             else
-                MiListaDeErrores.Add("el valor de los lados no pueden ser 0 o menor y la suma de sus lados menores, no pueden ser mayor que el mayor");
+                MiListaDeErrores.Add("el valor de los lados no pueden ser 0 o menor y la suma de sus lados menores, debe ser mayor al valor del lado mayor");
             return elResultado;
         }
     }
