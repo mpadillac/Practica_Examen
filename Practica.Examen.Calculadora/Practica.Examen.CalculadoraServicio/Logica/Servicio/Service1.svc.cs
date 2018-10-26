@@ -238,12 +238,70 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
             var elResultado = laEspecificacion.Volu_Esfera(radio);
             return elResultado;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="radio">valor del radio del cono</param>
+        /// <param name="altura">valor de la altura del cono</param>
+        /// <returns>valor del volumen del cono</returns>
         public double Volu_Cono(double radio, double altura)
         {
             Logica.Especificacion.Vol_Cono laEspecificacion;
             laEspecificacion = new Logica.Especificacion.Vol_Cono();
             var elResultado = laEspecificacion.Volu_Cono(radio, altura);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="arista">valor de la arista del cubo</param>
+        /// <returns>valor del volumen del cubo</returns>
+        public double Volu_Cubo(double arista)
+        {
+            Logica.Especificacion.Vol_Cubo laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Cubo();
+            var elResultado = laEspecificacion.Volu_Cubo(arista);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="radio">valor del radio del área de la base del prisma</param>
+        /// <param name="altura">valor de la altura del prisma</param>
+        /// <returns>valor del volumen del prisma</returns>
+        public double Volu_Prisma(double arebase, double altura)
+        {
+            Logica.Especificacion.Vol_Prisma laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Prisma();
+            var elResultado = laEspecificacion.Volu_Prisma(arebase, altura);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lbase">valor del lado de la base de la pirámide cuadrada</param>
+        /// <param name="altura">valor de la altura de la pirámide cuadrada</param>
+        /// <returns>valor del volumen de la pirámide cuadrada</returns>
+        public double Volu_Piram_Cuadrada(double lbase, double altura)
+        {
+            Logica.Especificacion.Vol_Piram_Cuadrada laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Piram_Cuadrada();
+            var elResultado = laEspecificacion.Volu_Piram_Cuadrada(lbase, altura);
+            return elResultado;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="apotema">valor de la apotema de la pirámide</param>
+        /// <param name="cant_lados">cantidad de lados de la pirámide</param>
+        /// <param name="altura">valor de la altura de la pirámide</param>
+        /// <param name="long_lado">valor de la longitud de la pirámide</param>
+        /// <returns>valor del volumen de la pirámide</returns>
+        public double Volu_Piram_Poligonal(double apotema, double cant_lados, double altura, double long_lado)
+        {
+            Logica.Especificacion.Vol_Piram_Poligonal laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Vol_Piram_Poligonal();
+            var elResultado = laEspecificacion.Volu_Piram_Poligonal(apotema, cant_lados, altura, long_lado);
             return elResultado;
         }
     }

@@ -63,6 +63,18 @@ namespace Practica.Examen.CalculadoraServicio.Logica.Servicio
         double Volu_Cono(double radio, double altura);
 
         [OperationContract]
+        double Volu_Cubo(double arista);
+
+        [OperationContract]
+        double Volu_Prisma(double arebase, double altura);
+
+        [OperationContract]
+        double Volu_Piram_Cuadrada(double lbase, double altura);
+
+        [OperationContract]
+        double Volu_Piram_Poligonal(double apotema, double cant_lados, double altura, double long_lado);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
